@@ -1,0 +1,12 @@
+/* Scss Document */
+
+// Global Specificity
+@import 'partials/variables.scss'
+
+
+
+// Site Specificity
+@import 'partials/template.scss'
+	
+// Page Specificity
+@import 'pages/index.scss'
