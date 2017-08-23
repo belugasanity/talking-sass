@@ -58,6 +58,18 @@ footer img {
 	width: 100%;
 }
 
+.carousel-indicators{
+	bottom: -45px;
+}
+
+.carousel-indicators li{
+	background-color: #fff;
+}
+
+.carousel-indicators .active{
+	background-color: #3a4448;
+}
+
 @media screen and (min-width: 768px){
 .carousel-caption {
     left: -30%;
