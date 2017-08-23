@@ -53,5 +53,14 @@ footer img {
 	padding-bottom: 20px;
 }
 
+.carousel-inner .item img{
+	margin:0 auto;
+}
 
+@media screen and (min-width: 768px){
+.carousel-caption {
+    left: -30%;
+    padding-bottom: 30px;
+}
+}
 
