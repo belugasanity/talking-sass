@@ -53,5 +53,27 @@ footer img {
 	padding-bottom: 20px;
 }
 
+.carousel-inner .item img{
+	margin:0 auto;
+	width: 100%;
+}
 
+.carousel-indicators{
+	bottom: -45px;
+}
+
+.carousel-indicators li{
+	background-color: #fff;
+}
+
+.carousel-indicators .active{
+	background-color: #3a4448;
+}
+
+@media screen and (min-width: 768px){
+.carousel-caption {
+    left: -30%;
+    padding-bottom: 30px;
+}
+}
 
