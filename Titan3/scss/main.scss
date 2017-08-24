@@ -1,12 +1,14 @@
 /* Scss Document */
 
 // Global Specificity
-@import 'partials/variables.scss'
+@import 'partials/variables.scss';
 
+// Page Specificity
+@import 'pages/index-page.scss';
 
 
 // Site Specificity
-//@import 'partials/template.scss'
+@import 'partials/headerslider.scss';
+
+@import 'partials/footer.scss';
 	
-// Page Specificity
-//@import 'pages/index.scss'

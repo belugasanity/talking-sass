@@ -1,0 +1,15 @@
+/* Scss Document */
+/* index-page */
+/*	@font-face{
+		font-family: halflings-regular;
+		src: url('../fonts/glyphicons-halflings-regular.ttf'),
+		url('../fonts/glyphicons-halflings-regular.eot');
+		}*/
+
+@font-face {
+    font-family: halflings-regular;
+    src: url(../fonts/glyphicons-halflings-regular.ttf);
+}
+body{
+font-family: halflings-regular, Times, serif;
+}

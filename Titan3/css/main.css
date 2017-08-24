@@ -1,79 +1,72 @@
+/* Scss Document */
+/* Scss Document */
+/* Colors */
+/* Font */
+/* Scss Document */
+/* index-page */
+/*	@font-face{
+		font-family: halflings-regular;
+		src: url('../fonts/glyphicons-halflings-regular.ttf'),
+		url('../fonts/glyphicons-halflings-regular.eot');
+		}*/
+@font-face {
+  font-family: halflings-regular;
+  src: url(../fonts/glyphicons-halflings-regular.ttf); }
+body {
+  font-family: halflings-regular, Times, serif; }
 
+/* Scss Document */
+/* Header & Slider SCSS*/
+nav .container #navbar .row img .googleCompliant {
+  float: right;
+  width: 15%;
+  margin-bottom: 10px; }
+nav .container #navbar .row ul {
+  float: right;
+  border-top: solid 1px #b5babc;
+  padding-top: 15px; }
+  nav .container #navbar .row ul li {
+    float: left;
+    width: 100px;
+    list-style: none;
+    text-align: right; }
+nav .container .navbar-header a img .titanLogo {
+  width: 50%; }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-nav ul {
-	float: right;
-	border-top: solid 1px #b5babc;
-	padding-top: 15px;
-}
-
-nav ul li {
-	float: left;
-	width: 100px;
-	list-style: none;
-	text-align: right;
-}
-
-.titanLogo {
-	width: 50%;
-}
-
-.googleCompliant {
-	float: right;
-	width: 15%;
-	margin-bottom: 10px;
-}
-
-.rightAlign {
-	text-align: right;
-}
-
-
-
-
-footer {
-	color: white;
-}
-footer img {
-	width: 100%;
-}
-.blueRibbon {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#339ef0+0,2989d8+50,207cca+51,0079d4+100 */
-	background: rgb(51,158,240); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(51,158,240,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(0,121,212,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(51,158,240,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(0,121,212,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(51,158,240,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(0,121,212,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339ef0', endColorstr='#0079d4',GradientType=0 ); /* IE6-9 */
-
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-
-.carousel-inner .item img{
-	margin:0 auto;
-	width: 100%;
-}
-
-.carousel-indicators{
-	bottom: -45px;
-}
-
-.carousel-indicators li{
-	background-color: #fff;
-}
-
-.carousel-indicators .active{
-	background-color: #3a4448;
-}
-
-@media screen and (min-width: 768px){
-.carousel-caption {
+.jumbotron .container #myCarousel .carousel-indicators {
+  bottom: -45px; }
+  .jumbotron .container #myCarousel .carousel-indicators .active {
+    background-color: #3a444a; }
+@media screen and (min-width: 768px) {
+  .jumbotron .container #myCarousel .carousel-inner .item .container .carousel-caption {
     left: -30%;
-    padding-bottom: 30px;
-}
-}
+    padding-bottom: 30px; } }
+.jumbotron .container #myCarousel .carousel-inner .item img {
+  margin: 0 auto;
+  width: 100%; }
 
+/* Scss Document */
+/* Footer */
+footer {
+  color: #fff; }
+  footer .container .clientRow .col-md-1 img, footer .container .clientRow .col-md-2 img, footer .container .clientRow .col-md-3 img {
+    width: 100%; }
+  footer .container .blueRibbon {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#339ef0+0,2989d8+50,207cca+51,0079d4+100 */
+    background: #339ef0;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #339ef0 0%, #2989d8 50%, #207cca 51%, #0079d4 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #339ef0 0%, #2989d8 50%, #207cca 51%, #0079d4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #339ef0 0%, #2989d8 50%, #207cca 51%, #0079d4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339ef0', endColorstr='#0079d4',GradientType=0 );
+    /* IE6-9 */
+    padding-top: 30px;
+    padding-bottom: 20px; }
+    footer .container .blueRibbon .rightAlign {
+      text-align: right; }
+
+/*=============================================================*/
+/*====================Insert your CSS code below to be converted later =====================*/
