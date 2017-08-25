@@ -2,6 +2,7 @@
 /* Header & Slider SCSS*/
 
 nav{
+	background-color: $opacity-white;
 	.container{
 		#navbar{
 			.row{
@@ -42,6 +43,7 @@ nav{
 	.container{
 		#myCarousel{
 			.carousel-indicators{
+				background-color: #fff;
 				.active{
 					background-color: $soft-gray;
 				}
