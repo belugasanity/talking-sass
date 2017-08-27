@@ -3,20 +3,8 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*Body*/
-body{
-	background-color: #e7e7e7;
-}
-
-/*Header*/
-.header{
-	background-image: url(../img/headerShadow.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-}
 
 
-/*Navigation */
 nav ul {
 	float: right;
 	border-top: solid 1px #b5babc;
@@ -24,27 +12,11 @@ nav ul {
 }
 
 nav ul li {
-	font-size: 13px;
 	float: left;
 	width: 100px;
 	list-style: none;
 	text-align: right;
-	margin-right: 15px;
 }
-
-nav ul li a{
-	font-size: 20px;
-	color: #3a4448;
-}
-
-nav ul li a:hover, a:focus {
-		text-decoration: none;
-}
-
-.imgPad{
-	padding-right: 5px;
-}
-
 
 .titanLogo {
 	width: 50%;
@@ -61,104 +33,14 @@ nav ul li a:hover, a:focus {
 }
 
 
-/* Slider */
-.jumbotron{
-	background-color: transparent;
-	padding: 0;
-}
-
-.carousel{
-	box-shadow: 0 0 5px 5px #bcbabc;
-}
 
 
-/*Content*/
-.some-words-about{
-	background-image: url(../img/somewordsaboutShadow.png);
-	background-repeat: no-repeat;
-	background-position: top center;
-	padding-top: 40px;
-}
-
-.black{
-	background-image: url( ../img/Black_Bar_Square_Gradient.png);
-	background-repeat: repeat-x;
-	background-position: top center;
-	background-color: #000;
-	padding: 50px 0px;
-	color: #fff;
-}
-
-.btn-primary{
-	background-color:rgba(0,0,0,0.00);
-	background: rgba(0,0,0,0.00);
-	border: none;
-	box-shadow: none;
-}
-
-a:hover, a:focus {
-	background-color:rgba(0,0,0,0.00);
-	background: rgba(0,0,0,0.00);
-	border: none;
-	box-shadow: none;
-	
-}
-.black ul li{
-	list-style: none;
-
-}
-
-#proDesign{
-	color: #0077d1;
-}
-
-#proMarketing{
-	color: #3a4448;
-}
-
-#custDev{
-	color: #5ebb46;
-}
-
-#highEnd{
-	color: #3a4448;
-	font-size: 20px;
-}
-
-
-/* Footer */
 footer {
 	color: white;
-	width: 100%;
 }
 footer img {
 	width: 100%;
 }
-
-.clientRow{
-	background-color: #fff;
-	box-shadow: 0 0 5px 5px #bcbabc;
-}
-
-footer .left, footer .right{
-	height: 16px;
-	width: 16px;
-	border-top: 16px solid transparent;
-}
-
-footer .right {
-	float:right;
-	margin-right:0;
-	border-left: 16px solid #2a2f31;
-}
-
-footer .left {
-	float:left;
-	margin-left:0;
-	border-right: 16px solid #2a2f31;
-}
-
-
 .blueRibbon {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#339ef0+0,2989d8+50,207cca+51,0079d4+100 */
 	background: rgb(51,158,240); /* Old browsers */
@@ -194,3 +76,4 @@ footer .left {
     padding-bottom: 30px;
 }
 }
+

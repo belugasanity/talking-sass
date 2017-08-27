@@ -1,0 +1,72 @@
+/* Scss Document */
+/* Header & Slider SCSS*/
+
+nav{
+	background-color: $opacity-white;
+	.container{
+		#navbar{
+			.row{
+				img{
+					.googleCompliant {
+					float: right;
+					width: 15%;
+					margin-bottom: 10px;
+					}
+				}				
+				ul{
+					float: right;
+					border-top: solid 1px #b5babc;
+					padding-top: 15px;
+					
+					li{
+						float: left;
+						width: 100px;
+						list-style: none;
+						text-align: right;
+					}
+				}
+			}
+		}
+		.navbar-header{
+			a{
+				img{
+					.titanLogo {
+						width: 50%;
+					}
+				}
+			}
+		}
+	}
+} // End of Nav tag
+
+.jumbotron{
+	.container{
+		#myCarousel{
+			.carousel-indicators{
+				background-color: #fff;
+				.active{
+					background-color: $soft-gray;
+				}
+				
+				
+				bottom: -45px;
+			}
+			.carousel-inner{
+				.item{
+					.container{
+						@media screen and (min-width: 768px){
+							.carousel-caption {
+								left: -30%;
+								padding-bottom: 30px;
+							}
+						}
+					}
+					img{
+						margin:0 auto;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

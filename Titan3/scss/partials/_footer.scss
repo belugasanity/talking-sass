@@ -1,0 +1,39 @@
+/* Scss Document */
+/* Footer */
+footer{
+	color: #fff;
+	.container{
+		.clientRow{
+			.col-md-1{
+				img{
+					width: 100%;
+				}
+			}
+			.col-md-2{
+				@extend .col-md-1;
+			}
+			.col-md-3{
+				@extend .col-md-1;
+			}
+		}
+		
+		
+		.blueRibbon{
+			.rightAlign {
+				text-align: right;
+			}
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#339ef0+0,2989d8+50,207cca+51,0079d4+100 */
+				background: rgb(51,158,240); /* Old browsers */
+				background: -moz-linear-gradient(top, rgba(51,158,240,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(0,121,212,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, rgba(51,158,240,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(0,121,212,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, rgba(51,158,240,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(0,121,212,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339ef0', endColorstr='#0079d4',GradientType=0 ); /* IE6-9 */
+
+				padding-top: 30px;
+				padding-bottom: 20px;
+		}
+	}
+}
+
+/*=============================================================*/
+/*====================Insert your CSS code below to be converted later =====================*/
