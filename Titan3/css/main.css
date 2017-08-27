@@ -89,17 +89,76 @@ nav ul li a:hover, a:focus {
 	color: #fff;
 }
 
+.btn-primary{
+	background-color:rgba(0,0,0,0.00);
+	background: rgba(0,0,0,0.00);
+	border: none;
+	box-shadow: none;
+}
+
+a:hover, a:focus {
+	background-color:rgba(0,0,0,0.00);
+	background: rgba(0,0,0,0.00);
+	border: none;
+	box-shadow: none;
+	
+}
 .black ul li{
 	list-style: none;
 
 }
 
+#proDesign{
+	color: #0077d1;
+}
+
+#proMarketing{
+	color: #3a4448;
+}
+
+#custDev{
+	color: #5ebb46;
+}
+
+#highEnd{
+	color: #3a4448;
+	font-size: 20px;
+}
+
+
+/* Footer */
 footer {
 	color: white;
+	width: 100%;
 }
 footer img {
 	width: 100%;
 }
+
+.clientRow{
+	background-color: #fff;
+	box-shadow: 0 0 5px 5px #bcbabc;
+}
+
+footer .left, footer .right{
+	height: 16px;
+	width: 16px;
+	border-top: 16px solid transparent;
+}
+
+footer .right {
+	float:right;
+	margin-right:0;
+	border-left: 16px solid #2a2f31;
+}
+
+footer .left {
+	float:left;
+	margin-left:0;
+	border-right: 16px solid #2a2f31;
+}
+
+
 .blueRibbon {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#339ef0+0,2989d8+50,207cca+51,0079d4+100 */
 	background: rgb(51,158,240); /* Old browsers */
