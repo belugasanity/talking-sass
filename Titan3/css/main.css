@@ -8,6 +8,10 @@ body{
 	background-color: #e7e7e7;
 }
 
+.barrier{
+	max-width: 1200px;
+}
+
 /*Header*/
 .header{
 	background-image: url(../img/headerShadow.png);
@@ -70,7 +74,9 @@ nav ul li a:hover, a:focus {
 .carousel{
 	box-shadow: 0 0 5px 5px #bcbabc;
 }
-
+.carousel-indicators{
+	padding: 0px 0px;
+}
 
 /*Content*/
 .some-words-about{
@@ -125,7 +131,20 @@ a:hover, a:focus {
 	font-size: 20px;
 }
 
+.white{
+	background-color: #fff;
+}
 
+.coolBlue{
+	color: #0077d1;
+}
+
+.slickGrey{
+	color: #3a4448;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
 /* Footer */
 footer {
 	color: white;
