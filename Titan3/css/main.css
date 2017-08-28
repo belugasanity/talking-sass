@@ -163,7 +163,6 @@ footer .left, footer .right{
 	height: 16px;
 	width: 16px;
 	border-top: 16px solid transparent;
-	margin-left: -15px;
 }
 
 footer .right {
@@ -177,6 +176,7 @@ footer .left {
 	float:left;
 	margin-left:0;
 	border-right: 16px solid #2a2f31;
+	margin-left: -15px;
 }
 
 
